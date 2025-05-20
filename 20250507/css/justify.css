@@ -1,0 +1,25 @@
+section {
+    display: flex;
+    background-color: rgb(133, 47, 113);
+}
+
+article {
+    height: 100px;
+    width: 100px;
+    background: rgb(208, 18, 107);
+}
+
+section, article {
+    border: solid 3px;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+#izq{justify-content: flex-start;}
+    #der{justify-content: flex-end;}
+    #cen{justify-content: center ;}
+    #esp{justify-content: space-between;}
+    #spc{justify-content: space-around;}
+    #spce{justify-content:space-evenly ;}
+
+    main{background-color: rgb(208, 128, 161); padding: 1rem;}

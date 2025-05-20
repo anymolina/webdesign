@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+    <style>
+        main {background:rgb(207, 80, 184); padding: 1rem;}
+        label {display: block; margin: 1rem 0;}
+    </style>
+</head>
+<body>
+      <header>
+        <h1>FORMULARIO</h1>
+      </header>
+      <main>
+        <!--AQUI COMIENZA EL FORMULARIO-->
+        <form action="FORMULARIO">
+        <label for="InName">NOMBRE:
+         <input type="text" name="InName" id="InName" required placeholder="Alex">
+      </label>
+      <label for="inLastname">APELLIDO:
+        <input type="text" name="inLastname" id="inLastname"required placeholder="Doe">
+        </label>
+      
+            <label for="inAddress">DIRECCION:
+             <input type="text" name="inAddress" id="inAddress"required placeholder="calle5 #19-64">
+          </label>
+        
+            <label for="inPhone">PHONE:
+             <input type="text" name="inPhone" id="inPhone"required placeholder="3123847566">
+          </label>
+        
+            <label for="inEmail">EMAIL:
+             <input type="text" name="inEmail" id="inEmail"required placeholder="alex254@gmail.com">
+          </label>
+          <label for="inGender">SEXO
+            <input type="radio" name="genere" td="InGenere" value="Masculino"> Masculino
+            <input type="radio" name="genere" td="InGenere" value="Femenino"> Femenino
+            <input type="radio" name="genere" td="InGenere" value="NS"> No se sabe
+          </label>
+
+           <label for="InEntertalment">PASATIEMPOS:
+            <input type="checkbox" name="InEntertainment" id="InEntertainment" value="instrumento"> Instrumento
+            <input type="checkbox" name="InEntertainment" id="InEntertainment" value="baile"> Baile
+            <input type="checkbox" name="InEntertainment" id="InEntertainment" value="sing"> Cantar
+            <input type="checkbox" name="InEntertainment" id="InEntertainment" value="cooking"> Cocina
+            <input type="checkbox" name="InEntertainment" id="InEntertainment" value="sport"> Deportes
+            <input type="checkbox" name="InEntertainment" id="InEntertainment" value="resd"> Lectura
+
+           </label>
+          
+
+          <label for="pwd">PASSWORD:
+            <input type="password" name="pwd" id="pwd">
+          </label>
+
+          <label for="birthday">Fec Nac
+            <input type="date" name="birthday" id="birthday">
+          </label>
+          <input type="button" value="ENVIAR">
+
+        </form>
+        <!-- AQUI TERMINA-->
+      </main>
+</body>
+</html>

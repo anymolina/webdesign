@@ -1,0 +1,36 @@
+        body{
+            border: rgb(166, 68, 179) 5px dashed;
+            padding: 1rem;
+            font-size: larger;
+            text-align: center;
+        }
+        header{
+            border: solid rgb(192, 104, 219);
+            padding: 2rem;
+        }
+        nav{
+            border: 2Px rgba(76, 9, 233, 0.918) solid;
+            border-radius: 1rem;
+        }
+        ul{
+            list-style: none;
+            text-align: center;
+        }
+        li{
+            display: inline;
+        }
+        nav a{
+            text-decoration: none;
+        }
+        main{
+            border: rgb(235, 11, 149) dotted 8px;
+            padding: 1rem;
+            margin: 2rem;
+            
+        }
+        footer{
+            background: rgb(172, 32, 207);
+            color: white;
+            border: 4cap orange;
+        }
+        p{text-align: justify;}

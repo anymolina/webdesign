@@ -1,0 +1,39 @@
+main{
+    background: rgb(22, 2, 22);
+}
+section{
+    display:flex;
+    background:rgba(121, 20, 121, 0.826);
+    height: 300px;
+}
+section, article{
+    border: solid white;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+article{
+    width:100px;
+    /*height: 100px;*/
+    background: rgb(187, 24, 163);
+    text-align: center;
+}
+.pequeño{height: 80px;}
+.grande{height: 200px;}
+.mediano{height: 150px;}
+.grandote{height: 250px;}
+
+#start{align-items: flex-start;}
+#end{align-items:flex-end;}
+#center{align-items:center;}
+#stretch{align-items:stretch;}
+#baseline{align-items: baseline;}
+
+#a_p{font-size: 2rem;}
+#a_m{font-size: 3rem;}
+#a_g{font-size: 4rem;}
+#a_t{font-size: 5rem;}
+
+#_baseline article{
+align-content:center;
+    width:270px;
+}

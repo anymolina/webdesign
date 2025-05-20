@@ -1,0 +1,29 @@
+section {
+    display: grid;
+    margin: 2rem 0;
+    border: solid rgb(146, 245, 16);
+}
+#s_two {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#s_three {
+    grid-template-columns: repeat(4, 200px);
+                        /*200px 200px 200px 200px*/
+}
+article{
+    border: solid rgb(247, 12, 177);
+    height: 100px;
+    width: 100%;
+    border-radius: 1rem;
+    font-size: 3rem;
+    margin: 0;
+}
+#s_articles {
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+#a_uno{
+    grid-column: -3 / -2;
+
+    grid-row: 2 / 3;
+}
