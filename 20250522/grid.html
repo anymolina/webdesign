@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID REFERENCE</title>
+    <link rel="stylesheet" href="css/grid.css">
+</head>
+<body>
+    <header>
+        <h1>CSS GRID REFERENCE</h1>
+    </header>
+    <nav>
+        <ul>
+            <li></li>
+            <li><a href="grid.html">Grid Template Columns <br>Grid Template Row</b></a></li>
+            <li><a href="../20250515/sanbox.html">Grid Column <br>Grid Row</a></li>
+            <li><a href="../20250521/justify_align.html">Justify Self <br>Align Self</a></li>
+            <li><a href="../20250515/sanbox.html">Grid Area</a></li>
+            <li><a href="../20250521/justyitems.html">Align Items <br>Justify Items</a></li>
+        </ul>
+        </nav>  
+    <main>
+        <section class="sec">
+            <a href="./grid.html" class="lin">
+                <article class="art_der">
+                <h2>Grid Template Columns</h2>
+                <img src="./assets/template-columns-rows-01.svg" alt="" >
+                <p>Definen el número total de columnas y filas, respectivamente, así como el tamaño asignado a cada una. Son las que determinan cómo se divide el espacio disponible en el contenedor en filas y columnas  </p>
+            </article>
+            </a>
+        </section>
+        <section class="sec">
+            <a href="./grid.html" class="lin">
+                <article class="art_izq">
+                <h2>Grid Template Row</h2>
+                <img src="./assets/template-column-rows-02.svg" alt="">
+                <p>Esta propiedad hace lo mismo, pero con las filas. Le indica al contenedor cuántas filas va a tener y qué altura va a tener cada una. </p>
+                
+            </article>
+            </a>
+        </section>
+        <section class="sec">
+            <a href="../20250515/sanbox.html" class="lin">
+                <article class="art_der">
+                <h2>Grid Column</h2>
+                <img src="./assets/grid-column-row.svg" alt="">
+                <p>- Se usa para definir en qué columnas de la cuadrícula debe situarse un elemento. Puede aceptar valores como grid-column: 2 / 4;, lo que significa que el elemento comienza en la columna 2 y termina en la columna 4.
+</p>
+            </article>
+            </a>
+        </section>
+        <section class="sec">
+            <a href="../20250515/sanbox.html" class="lin">
+                <article class="art_izq">
+                <h2>Grid Row</h2>
+                <img src="./assets/grid-column-row.svg" alt="">
+                <p>- Similar a grid-column, pero aplicado a las filas. Por ejemplo, grid-row: 1 / 3; indica que el elemento abarcará desde la fila 1 hasta la fila 3.
+                Estas propiedades permiten una organización más flexible del diseño sin necesidad de usar float o position:absolute. ¿Quieres un ejemplo práctico? 
+                </p>
+            </article>
+            </a>
+        </section>
+        <section class="sec">
+            <a href="../20250521/justify_align.html" class="lin">
+                <article class="art_der">
+                <h2>Justify Self</h2>
+                <img src="./assets/Captura de pantalla 2025-05-25 104837.png" alt="" >
+                <p>es una propiedad en CSS Grid que permite alinear un elemento dentro de su celda en el eje horizontal. Se usa dentro de un contenedor de cuadrícula y afecta solo a ese elemento en particular.
+                <br> start 🡆 Alinea el elemento al inicio de su celda <br> end 🡆 Lo posiciona al final <br>center 🡆 Lo centra dentro de su celda <br> stretch 🡆 Hace que ocupe todo el espacio disponible (valor por defecto en Grid)
+                </p>
+            </article>
+            </a>
+        </section>
+        <section class="sec">
+            <a href="../20250521/justify_align.html" class="lin">
+                <article class="art_izq">
+                <h2>Align Self</h2>
+                <img src="./assets/Captura de pantalla 2025-05-25 105318.png" alt="">
+                <p>permite controlar la alineación vertical de un elemento individual dentro de su celda. Es similar a justify-self, pero en el eje Y (vertical) <br>start 🡆 Alinea el elemento al inicio de la celda <br> - end 🡆 Lo coloca al final de la celda <br> - center 🡆 Lo centra verticalmente <br> - stretch 🡆 Hace que ocupe toda la altura disponible (valor por defecto)</p>
+            </article>
+            </a>
+        </section>
+        <section class="sec">
+            <a href="../20250515/sanbox.html" class="lin" >
+                <article class="art_der">
+                <h2>Grid Area</h2>
+                <img src="./assets/grid-area.svg" alt="" >
+                <p>permite asignar un elemento a una zona específica de la cuadrícula utilizando nombres predefinidos o coordenadas de filas y columnas. </p>
+            </article>
+            </a>
+        </section>
+        <section class="sec">
+            <a href="../20250521/justyitems.html" class="lin">
+                <article class="art_izq">
+                <h2>Justify Items</h2>
+                <img src="./assets/Captura de pantalla 2025-05-25 105600.png" alt="" >
+                <p>permite controlar la alineación horizontal de todos los elementos dentro del contenedor <br> - start 🡆 Los elementos se alinean al inicio de sus celdas <br> - end 🡆 Se colocan al final de sus celdas <br> - center 🡆 Se centran horizontalmente <br> - stretch 🡆 Ocupan todo el ancho disponible (valor predeterminado en Grid)</p>
+            </article>
+            </a>
+        </section>
+        <section class="sec">
+            <a href="../20250521/justyitems.html" class="lin">
+                <article class="art_der">
+                <h2>Align Items</h2>
+                <img src="./assets/Captura de pantalla 2025-05-25 105939.png" alt="">
+                <p>permite controlar la alineación vertical de todos los elementos dentro del contenedor <br> - start 🡆 Los elementos se alinean al inicio de sus celdas <br> - end 🡆 Se colocan al final de sus celdas <br> - center 🡆 Se centran verticalmente dentro de sus celdas <br> - stretch 🡆 Ocupan toda la altura disponible (valor por defecto en Grid)</p>
+            </article>
+            </a>
+        </section>
+    </main>
+    <aside>
+        <h2>¿Que usé en el main?</h2>
+        <h3>En el "main" usé 9 secciones y en cada una metí todo dentro de un "article", que contiene un título ("h2"), un párrafo ("p") y una imagen ("img"). Para que la imagen esté a la derecha o a la izquierda según la sección, le puse clases diferentes: a la primera le puse art_der para que la imagen quede a la derecha, a la segunda art_izq para que quede a la izquierda, y así fui alternando.
+
+En el CSS, para esas clases usé CSS Grid para dividir cada artículo en dos columnas: una para la imagen y otra para el texto. Definí tamaños fijos para las imágenes y dejé que el texto ocupara el resto del espacio. Además, puse un espacio (gap) entre las columnas y alineé verticalmente los elementos para que todo quede centrado y ordenado.
+
+También le di estilo al "main" para que tenga un fondo beige, padding para que no quede pegado a los bordes y bordes redondeados. A cada sección le puse un fondo amarillo claro con sombra y bordes redondeados para que resalten y se diferencien</h3>
+    </aside>
+    <footer>
+        <h2>&copy;Anyela Molina</h2>
+    </footer>
+</body>
+</html>
+
+

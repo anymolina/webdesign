@@ -1,36 +1,42 @@
         body{
-            border: rgb(166, 68, 179) 5px dashed;
+            border: rgb(248, 14, 170) dashed 4px;
             padding: 1rem;
-            font-size: larger;
             text-align: center;
+            background-color: rgba(252, 103, 185, 0.432);
         }
         header{
-            border: solid rgb(192, 104, 219);
-            padding: 2rem;
+            border: solid rgb(248, 238, 246) 4px;
+            padding: 1rem;
         }
         nav{
-            border: 2Px rgba(76, 9, 233, 0.918) solid;
+            border: 3Px rgba(187, 40, 131, 0.788) solid;
             border-radius: 1rem;
+            margin: 2rem;
         }
+
         ul{
             list-style: none;
             text-align: center;
         }
         li{
             display: inline;
+            background: rgba(131, 10, 101, 0.582);
+    
         }
+        
         nav a{
             text-decoration: none;
+            color: white;
         }
         main{
-            border: rgb(235, 11, 149) dotted 8px;
+            border: rgb(235, 11, 149) dotted 5px;
             padding: 1rem;
             margin: 2rem;
             
         }
         footer{
-            background: rgb(172, 32, 207);
+            background: rgb(207, 32, 128);
             color: white;
-            border: 4cap orange;
+            border: 1px rgb(252, 245, 246);
         }
-        p{text-align: justify;}
+        p{ text-align: justify;}

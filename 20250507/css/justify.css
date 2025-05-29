@@ -1,12 +1,16 @@
 section {
     display: flex;
-    background-color: rgb(133, 47, 113);
+    background-color: rgb(248, 101, 204);
+}
+
+main{background-color: rgb(208, 128, 161); 
+    padding: 1rem;
 }
 
 article {
     height: 100px;
     width: 100px;
-    background: rgb(208, 18, 107);
+    background: rgb(240, 145, 189);
 }
 
 section, article {
@@ -22,4 +26,4 @@ section, article {
     #spc{justify-content: space-around;}
     #spce{justify-content:space-evenly ;}
 
-    main{background-color: rgb(208, 128, 161); padding: 1rem;}
+    

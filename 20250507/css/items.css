@@ -1,31 +1,36 @@
-* {
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-main {
-    background: powderblue; padding: 1rem;} 
+main{ background: rgba(82, 238, 108, 0.459); 
+    padding: 1rem;
+}
 
-section {
+section{
     display: flex;
-    background: purple;
+    background-color: rgba(88, 233, 137, 0.836);
+    
 }
 
-article {
-    background: orange;
+article{
+    background-color: rgb(70, 236, 209);
     height: 100px;
-    /*width: 100px; */
-    flex-grow: 1;
     font-size: 2rem;
+    flex-grow: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-section article {
+section, article{
     margin: 1rem;
     border-radius: 1rem;
     border: solid 3px black;
 }
 
-.sencillo {flex-grow: 1;}
-.doble {flex-grow: 2;}
-.triple {flex-grow: 3;}
+.sencilllo{flex-grow: 1;}
+.doble{flex-grow: 2;}
+.triple{flex-grow: 3;}

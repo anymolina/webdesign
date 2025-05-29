@@ -1,46 +1,56 @@
 *{
-    box-sizing: border-box;margin: 0;padding: 1rem;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-main{background: violet ; padding: 1rem;}
 
 section{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 120px);
-    background-color: white;
+    background-color: rgb(216, 199, 199);
 }
-article{border-radius: 1rem;margin: 1rem;}
-
-#uno{
-    background: rgb(229, 134, 17);
-    grid-area: 1/ 1/ 3/ 3;
+article{
+    border-radius: 1rem;
+    margin: 1rem;
+}
+#uno {
+    background: rgb(241, 152, 234);
+    grid-area: 1 / 1 / 3 / 3;
     z-index: 2;
 }
-#dos{
-    background: rgb(143, 143, 18);
-    grid-area: 2/ 2/ 4/ 4;
+#dos {
+    background: rgba(133, 87, 163, 0.705);
+    grid-area: 2 / 2 / 4 / 4;
     z-index: 1;
 }
 #tres{
-    background: rgb(11, 90, 62);
-    grid-area: 3/-3/ 5/ -1;
+    background: rgba(122, 188, 226, 0.87);
+    grid-area: 3 / -3 / 5 / -1;
     z-index: 0;
 }
 #cuatro{
-    background: rgba(238, 130, 238, 0.527);
-    grid-area: 6/ 1/1/ 6 ;
+    background: rgba(240, 128, 128, 0.233);
+    grid-area: 6 / 1 / 1 / 6;
+    margin: 3rem;
     z-index: 4;
-    padding: 3rem;
 }
-#fond{
-grid-area: 2/ 2;
+#f1{
+    margin: 1rem;
+    z-index: 3;
+    border-radius: 10px;
+    border: solid rgb(186, 105, 194);
+    background: rgb(241, 185, 227);
 }
-#dialo{
+img{
+       grid-area: 2 / 2 / 4 / 4;
+       border-radius: 10px;
+}
 
-}
-#name{
-
-}
-#foto{
-
+#f1 article{
+    grid-area: 1 / 1 / -1 / -1;
+    border: solid rgb(111, 14, 124) 2px;
+    border-radius: 1rem;
+    margin: 1rem;
+    background: rgba(228, 65, 165, 0.418);
 }

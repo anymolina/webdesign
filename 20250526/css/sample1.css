@@ -1,0 +1,24 @@
+main{
+    background: greenyellow;
+    width: 1000px;
+    border: red solid 2px;
+    margin: 0 auto;
+    padding: 1rem;
+    font-size: 2rem;
+}
+@media screen and (max-width:800px){
+    main{
+        background:blue;
+        border: orange dotted 2px;
+        font-size: 1.1rem;
+        color: white;
+    }
+}
+@media screen and (max-width:450px){
+    main{
+        background:rgb(255, 0, 0);
+        border: rgb(0, 0, 0) dotted 2px;
+        font-size: 0.8rem;
+        color: rgb(255, 0, 0);
+    }
+}

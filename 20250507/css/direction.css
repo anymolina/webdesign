@@ -1,6 +1,6 @@
 * {box-sizing: border-box; margin: 0;padding: o;}
 main{
-    background: violet;
+    background: rgb(245, 177, 245);
 padding: 1rem;
 display: flex;
 flex-wrap: wrap;
@@ -11,12 +11,13 @@ section, article {
     display: flex;       border-radius: 1rem;
 }
 section {
-    background: purple;     width: 550px;   flex-wrap: wrap;
+    background: rgba(202, 22, 202, 0.712);     
+    width: 550px;   flex-wrap: wrap;
     justify-content: first end;
 }
 
 article{
-    background: orange;
+    background: rgba(243, 192, 243, 0.5);
     width: 100px;     height: 100px;
     padding: 1rem;     font-size: 3rem;
 }
